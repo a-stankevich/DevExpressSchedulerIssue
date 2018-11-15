@@ -1,3 +1,12 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [HomeController.cs](./CS/MVCSchedulerReadOnly/Controllers/HomeController.cs) (VB: [HomeController.vb](./VB/MVCSchedulerReadOnly/Controllers/HomeController.vb))
+* [SchedulerDataObject.cs](./CS/MVCSchedulerReadOnly/Models/SchedulerDataObject.cs) (VB: [SchedulerDataObject.vb](./VB/MVCSchedulerReadOnly/Models/SchedulerDataObject.vb))
+* [SchedulerStorageProvider.cs](./CS/MVCSchedulerReadOnly/Models/SchedulerStorageProvider.cs) (VB: [SchedulerStorageProvider.vb](./VB/MVCSchedulerReadOnly/Models/SchedulerStorageProvider.vb))
+* [Index.cshtml](./CS/MVCSchedulerReadOnly/Views/Home/Index.cshtml)
+* [SchedulerPartial.cshtml](./CS/MVCSchedulerReadOnly/Views/Home/SchedulerPartial.cshtml)
+<!-- default file list end -->
 # Scheduler - Lesson 1 - Show appointments in read-only mode
 
 
