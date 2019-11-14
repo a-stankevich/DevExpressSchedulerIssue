@@ -1,3 +1,12 @@
 @model MVCSchedulerReadOnly.Models.SchedulerDataObject
-           
-@Html.Partial("SchedulerPartial", Model)
+
+<div style="display: flex; flex-direction: row; width: 100%">
+    <div id="sidebar">
+        <h2>Sidebar</h2>
+    </div>
+    <div style="width: 100%">
+        @Html.Partial("SchedulerPartial", Model)
+    </div>
+</div>
+<button onclick="$('#sidebar').toggleClass('hidden')">Toggle Sidebar</button>
+<br />
